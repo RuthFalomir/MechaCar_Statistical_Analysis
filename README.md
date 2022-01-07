@@ -29,41 +29,35 @@ When we first look into the Total Summary, we can see that the whole population 
 ## T-Tests on Suspension Coils
 
 ### Test One
-
-
+<img width="335" alt="Test One" src="https://user-images.githubusercontent.com/88563922/148473726-d860c1a3-61e2-475a-b145-100f9d9eb3f3.PNG">
 
 ### Test Two
-
-
+<img width="379" alt="Test Two" src="https://user-images.githubusercontent.com/88563922/148473733-ff8e0cfe-cb4d-4e69-98da-c5900ac88c91.PNG">
 
 ### Test Three
-
-
+<img width="389" alt="Test Three" src="https://user-images.githubusercontent.com/88563922/148473748-b0017731-64e8-4206-82f5-38236d6d53cc.PNG">
 
 ### Test Four
+<img width="405" alt="Test Four" src="https://user-images.githubusercontent.com/88563922/148473770-1b3faa70-9515-445e-b6e7-193562ebabd2.PNG">
 
 
-* briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary
+To summarize our findings based on the t-test results, when we look at the general test (the one that includes all three lots), we can see that the p-value is 0.06028, therefore, we do not have sufficient evidence to reject the null hypothesis. This would lead us to believe that the means have no statistically relevant difference. However, once we begin t-testing individual lots, we can see that lot 1 and lot 2 behave as the general test did, but lot 3 has a p-value of 0.04168 and a mean of 1496.14. In conclusion, Lot 3's behavior is very much out of line during the manufacturing process and we recommend the company to look into its proccesses to find what is going wrong that is causing PSI levels to diverge from the norm. 
 
 ## Study Design: MechaCar vs Competition
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-### Study Description
-
-In your description, address the following questions:
-
 ### Metrics to test
 We will test:
-* Cost
+* Price - for the purposes of the first analysis, we will be focusing on this variable.
 * Fuel efficiency 
 * Product Lifespan (avr)
 
 ### Hypothesis
-The null hypothesis is that there is no statistical difference between our product and the competitor's.
-The alternative hypothesis is that there is statistical difference between our product and the competitor's.
+The null hypothesis is that there is no statistical difference between our product's price and the competitor's.
+The alternative hypothesis is that there is statistical difference between our product's price and the competitor's.
 
 ### Statistical Tests
-In order to test the cost variable, we will use the ANOVA test in order to compare average costs of vehicles, previously divided by categories. WHY
+In order to test the price variable, we will use the ANOVA test in order to compare average price of vehicles, previously divided by categories. We are using the ANOVA test because it allows us to compare several categories at the same time. 
 
 ### Data
-What data is needed to run the statistical test?
+The data needed to run the statistical test is the average price from vehicles sold by different brand dealerships.
